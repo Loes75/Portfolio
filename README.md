@@ -19,12 +19,12 @@ You will need node and npm installed globally on your machine.
 
 ## Built with :
 
-*React
-*Sass
+* React
+* Sass
 
 ## Libraries:
 
-*AOS.js
+* AOS.js
 
 
 
