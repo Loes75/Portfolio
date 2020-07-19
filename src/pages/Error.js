@@ -6,7 +6,7 @@ export default function Error() {
     return (
         <div>
             <Hero bg="error">
-                <Title title="Error- The page you're looking for doesn't exist"/>
+                <Title title="Error- La página que buscas no existe"/>
             </Hero>
         </div>
     )

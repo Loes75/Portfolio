@@ -5,7 +5,7 @@ import ProjectPreview from './ProjectPreview'
 export default function Work() {
     return (
         <section className="work">
-            <Title title="Recent Work"/>
+            <Title title="Proyectos recientes"/>
             <ProjectPreview/>
         </section>
     )

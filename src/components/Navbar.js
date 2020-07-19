@@ -31,10 +31,10 @@ export default class Navbar extends Component {
                     </div>
                     <ul className={burgerOpened ? "nav-links show-nav" : "nav-links"}>
                         <li>
-                            <Link className="nav-link" to="/">Home</Link>
+                            <Link className="nav-link" to="/">Inicio</Link>
                         </li>
                         <li>
-                            <a className={window.screen.width > 768 ? "nav-link btnContact" : "nav-link"} href="mailto:lauraochoae7@gmail.com">Contact</a>
+                            <a className={window.screen.width > 768 ? "nav-link btnContact" : "nav-link"} href="mailto:lauraochoae7@gmail.com">Contacto</a>
                         </li>
                     </ul>
 

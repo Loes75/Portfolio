@@ -5,7 +5,7 @@ import SkillPreview from '../components/SkillPreview';
 export default function About() {
     return (
         <section className="about">
-            <Title title="About me"></Title>
+            <Title title="Sobre mí"></Title>
             <SkillPreview />
         </section>
     )

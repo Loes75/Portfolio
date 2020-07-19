@@ -90,10 +90,6 @@
   background-color: #5C000B;
 }
 
-.nav-links .btnContact:hover {
-  background-color: black;
-}
-
 @media screen and (max-width: 768px) {
   .nav-links {
     display: block;
@@ -112,8 +108,8 @@
 }
 
 .bgHome {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0))), url("../img/digitization.png");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url("../img/digitization.png");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(194, 193, 193, 0.5)), to(rgba(194, 194, 194, 0.5))), url("../img/digitization.png");
+  background: linear-gradient(to right, rgba(194, 193, 193, 0.5), rgba(194, 194, 194, 0.5)), url("../img/digitization.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -176,7 +172,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   width: 70%;
   margin: auto;
   margin-bottom: 30px;
@@ -184,6 +180,12 @@
 
 .about .skill .infoContainer {
   width: 40%;
+}
+
+@media screen and (max-width: 900px) {
+  .about .skill .infoContainer {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -212,6 +214,8 @@
       align-self: center;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  -webkit-animation: updown 9s linear infinite;
+          animation: updown 9s linear infinite;
 }
 
 .about .skill a:hover {
@@ -292,6 +296,44 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+}
+
+@-webkit-keyframes updown {
+  0% {
+    -webkit-transform: translateY(-5%);
+            transform: translateY(-5%);
+  }
+  5% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  15%, 35% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  25% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+
+@keyframes updown {
+  0% {
+    -webkit-transform: translateY(-5%);
+            transform: translateY(-5%);
+  }
+  5% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  15%, 35% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  25% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
   }
 }
 
@@ -586,10 +628,6 @@
   display: none;
 }
 
-.projectDiv .layer .info .buttonsProject .btn:hover {
-  background-color: black;
-}
-
 @media screen and (max-width: 425px) {
   .projectDiv .layer .info .buttonsProject .btn {
     margin-right: 2px;
@@ -602,10 +640,6 @@
   color: #fff;
   padding: .3rem 1rem;
   border-radius: 54px;
-}
-
-.projectDiv .layer .info .buttonsProject .btnBack:hover {
-  background-color: black;
 }
 
 @media screen and (max-width: 425px) {

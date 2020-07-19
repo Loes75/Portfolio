@@ -6,12 +6,11 @@ import {MdMail} from 'react-icons/md';
 
 
 
-var skills = [{k : 0,icon : <FaLinkedin/>, ref : "https://www.linkedin.com/in/laura-isabel-ochoa-escobar-a35b64172/" , info : `I believe that the greatness of life is in facing challenges, 
-that's why I enjoy being in constant learning environments and teamwork.`, subinfo : "Check out my linkedin profile"}, 
-                {k: 1,icon : <FaGithubSquare/>, ref : "https://github.com/Loes75/" , info : `I believe that the greatness of life is in facing challenges, 
-                that's why I enjoy being in constant learning environments and teamwork.`, subinfo : "Check out my Github"},
-                {k : 2, icon : <MdMail/>, ref : "mailto:lauraochoae7@gmail.com" , info : `I believe that the greatness of life is in facing challenges, 
-                that's why I enjoy being in constant learning environments and teamwork.`, subinfo : "Like what you see? Write me!"}
+var skills = [{k : 0,icon : <FaLinkedin/>, ref : "https://www.linkedin.com/in/laura-isabel-ochoa-escobar-a35b64172/" , info : `Creo que la grandeza de la vida está en enfrentar desafíos,
+                por eso disfruto estar en entornos de aprendizaje constante y trabajo en equipo.Me gusta estar a la vanguardia y compartir ideas y pensamientos con los demás`, subinfo : "Visita mi  perfil de linkedin"}, 
+                {k: 1,icon : <FaGithubSquare/>, ref : "https://github.com/Loes75/" , info : `Se me facilita identificar problemas y buscar soluciones a estos. Considero que tener unas buenas 
+                bases facilita el aprendizaje, no me gusta resolver un problema sin saber como lo logré.`, subinfo : "Visita mi perfil en Github"},
+                {k : 2, icon : <MdMail/>, ref : "mailto:lauraochoae7@gmail.com" , info : `En estos momentos estoy enfocada al desarrollo front end, no obstante, en mis tiempos libres disfruto aprender sobre machine learning y big data.`, subinfo : "Te gusta lo que ves? Contáctame!"}
 ];
 
 export default function SkillPreview() {

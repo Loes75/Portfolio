@@ -10,8 +10,6 @@ export default function Project({ img, name , text,code,app,info}) {
             <div className="imgContainer">
                 <img src={img} alt={name} />
                 <div className="buttons">
-                    {/* <a href={app} target="_blank" className="btn view">View</a>
-                    <a href={code} target="_blank" className="btn code">Code</a> */}
                     <Link to={`/Project/${name}`} className="btn info">Info</Link>
                 </div>
                 <p>{text}</p>
