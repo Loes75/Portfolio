@@ -12,7 +12,7 @@ export default function Home() {
             <Hero bg="bgHome">
                 <h1>Laura Ochoa</h1>
                 <h2>Web Developer</h2>
-                <a  type="Download" className="btn" href={HV} target="_blank">Download CV</a>
+                <a  type="Download" className="btn" href={HV} target="_blank" rel="noopener noreferrer">Download CV</a>
             </Hero>
             <About/>
             <Work />

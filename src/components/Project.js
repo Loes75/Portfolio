@@ -1,7 +1,7 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { Link } from 'react-router-dom';
 
 export default function Project({ img, name , text,code,app,info}) {
     AOS.init({duration: 700,once : true ,delay : 40});
@@ -10,9 +10,9 @@ export default function Project({ img, name , text,code,app,info}) {
             <div className="imgContainer">
                 <img src={img} alt={name} />
                 <div className="buttons">
-                    <a href={app} target="_blank" className="btn view">View</a>
-                    <a href={code} target="_blank" className="btn code">Code</a>
-                    <a href={`/Project/${name}`} className="btn info">Info</a>
+                    {/* <a href={app} target="_blank" className="btn view">View</a>
+                    <a href={code} target="_blank" className="btn code">Code</a> */}
+                    <Link to={`/Project/${name}`} className="btn info">Info</Link>
                 </div>
                 <p>{text}</p>
             </div>

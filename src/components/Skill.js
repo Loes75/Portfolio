@@ -14,7 +14,7 @@ export default function Skill({ icon, refe, info, subinfo, orien,data }) {
                 <h4>{subinfo}</h4>
             </div>
             
-            <a href={refe} target="_blank">{icon}</a>
+            <a href={refe} target="_blank" rel="noopener noreferrer">{icon}</a>
         </article>
     )
 }
