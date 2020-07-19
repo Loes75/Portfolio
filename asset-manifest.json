@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6e57b445.chunk.css",
+    "main.js": "/Portfolio/static/js/main.db5919e1.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.db5919e1.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
+    "static/css/2.4707e12a.chunk.css": "/Portfolio/static/css/2.4707e12a.chunk.css",
+    "static/js/2.2b20be3b.chunk.js": "/Portfolio/static/js/2.2b20be3b.chunk.js",
+    "static/js/2.2b20be3b.chunk.js.map": "/Portfolio/static/js/2.2b20be3b.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.480c93e051dffc742fad1bb26a9aaecc.js": "/Portfolio/precache-manifest.480c93e051dffc742fad1bb26a9aaecc.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/Portfolio/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.6e57b445.chunk.css.map": "/Portfolio/static/css/main.6e57b445.chunk.css.map",
+    "static/js/2.2b20be3b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2b20be3b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Portfolio/static/media/digitization.79739363.png",
+    "static/media/HV_LauraOchoa.pdf": "/Portfolio/static/media/HV_LauraOchoa.11a6a67c.pdf",
+    "static/media/PhoneHotel.png": "/Portfolio/static/media/PhoneHotel.32db3ee3.png",
+    "static/media/PhoneImg.png": "/Portfolio/static/media/PhoneImg.8c8d32dd.png",
+    "static/media/PhoneNasa.png": "/Portfolio/static/media/PhoneNasa.45b82b67.png",
+    "static/media/PhoneRestaurant.png": "/Portfolio/static/media/PhoneRestaurant.2639ee25.png",
+    "static/media/TabletCovid.png": "/Portfolio/static/media/TabletCovid.9d9ef2f8.png",
+    "static/media/TabletHotel.png": "/Portfolio/static/media/TabletHotel.144a73c1.png",
+    "static/media/TabletImg.png": "/Portfolio/static/media/TabletImg.ecc36850.png",
+    "static/media/TabletNasa.png": "/Portfolio/static/media/TabletNasa.018aa620.png",
+    "static/media/TabletRestaurant.png": "/Portfolio/static/media/TabletRestaurant.f952f055.png",
+    "static/media/covid.jpg": "/Portfolio/static/media/covid.53bf3530.jpg",
+    "static/media/hotel2.JPG": "/Portfolio/static/media/hotel2.cff4e4e9.JPG",
+    "static/media/imageFinder.JPG": "/Portfolio/static/media/imageFinder.dad1fd42.JPG",
+    "static/media/nasa.JPG": "/Portfolio/static/media/nasa.ffa7a14a.JPG",
+    "static/media/restaurant.JPG": "/Portfolio/static/media/restaurant.e41bde06.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e440ee5a.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.2b20be3b.chunk.js",
+    "static/css/main.6e57b445.chunk.css",
+    "static/js/main.db5919e1.chunk.js"
+  ]
+}
